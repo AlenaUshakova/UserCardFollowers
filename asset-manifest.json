@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/UserCardFollowers/static/css/main.7acaea2f.css",
+    "main.js": "/UserCardFollowers/static/js/main.4c5462fc.js",
+    "index.html": "/UserCardFollowers/index.html",
+    "main.7acaea2f.css.map": "/UserCardFollowers/static/css/main.7acaea2f.css.map",
+    "main.4c5462fc.js.map": "/UserCardFollowers/static/js/main.4c5462fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.4c5462fc.js"
+  ]
+}

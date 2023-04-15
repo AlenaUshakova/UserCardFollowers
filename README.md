@@ -19,12 +19,14 @@ To use the application, follow these steps:
 
 ![Tweets page](./src/images/tweets.jpg)
 
+ Or just open the project on the live page: [UserCardFollowers](https://alenaushakova.github.io/UserCardFollowers/tweets)
+
 ## Technologies
 
-The project is built with React and uses the Axios library to interact with the Github API.
+The project is built with React and uses the Axios library to interact with the [MockAPI](https://mockapi.io/).
 
 ## Author
 
-Alena Ushakova - Software Developer
+Alena Ushakova - Frontend Developer
 
 

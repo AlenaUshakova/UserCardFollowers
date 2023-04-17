@@ -1,13 +1,11 @@
-import { StyledIncomeSmile, StyledIncomeSmileText } from './InfoSmile.styled';
+import { StyledInfoSmile, StyledInfoSmileText } from './InfoSmile.styled';
 import logo from '../../images/Sad.png';
 
 export const InfoSmile = () => {
   return (
-    <StyledIncomeSmile>
+    <StyledInfoSmile>
       <img src={logo} alt="logo" width={200} />
-      <StyledIncomeSmileText>
-        You haven't tracked anyone yet
-      </StyledIncomeSmileText>
-    </StyledIncomeSmile>
+      <StyledInfoSmileText>You haven't tracked anyone yet</StyledInfoSmileText>
+    </StyledInfoSmile>
   );
 };

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledIncomeSmile = styled.div`
+export const StyledInfoSmile = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,7 +11,7 @@ export const StyledIncomeSmile = styled.div`
 
 `;
 
-export const StyledIncomeSmileText = styled.p`
+export const StyledInfoSmileText = styled.p`
   font-size: 20px;
   line-height: 40px;
   color: red;

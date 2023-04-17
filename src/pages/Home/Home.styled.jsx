@@ -22,6 +22,7 @@ export const HomeContainer = styled.div`
   text-align: center;
   align-items: center;
   color: #5736a3;
+  
   ${StyledLink} {
     font-size: 30px;
     color: #5736a3;

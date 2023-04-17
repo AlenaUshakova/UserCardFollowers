@@ -7,13 +7,10 @@ import {
   TweetsBtn,
 } from './UserCard.styled';
 import logo from '../../images/logo.png';
+import { styleFollowers } from 'utils/styleFollowers';
 
 export const UserCard = ({ users, onUpdateUser }) => {
   
-  const styleFollowers = followers => {
-    return new Intl.NumberFormat('en-US').format(followers);
-  };
-
   return (
     <CardContainer>
       <ImgContainer>

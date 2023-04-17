@@ -64,6 +64,11 @@ export const AvatarContainer = styled.div`
   img {
     background-color: #5736a3;
     border-radius: 85.9232px;
+    transition: transform linear 250ms;
+
+    :hover, :focus {
+      transform: scale(1.1);
+    }
   }
 `;
 
@@ -97,4 +102,11 @@ export const TweetsBtn = styled.button`
   border-radius: 10.3108px;
   padding: 14px 28px;
   width: 196px;
+
+  transition: transform linear 250ms;
+
+  :hover,
+  :focus {
+    transform: scale(1.1);
+  }
 `;

@@ -11,10 +11,11 @@ export const StyledLink = styled(Link)`
   text-decoration: none;
   font-weight: 500;
   text-transform: uppercase;
-  
+
   transition: color linear 250ms;
 
-  :hover {
+  :hover,
+  :focus {
     color: #5736a3;
   }
 `;

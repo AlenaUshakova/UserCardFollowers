@@ -27,7 +27,8 @@ export const HomeContainer = styled.div`
     color: #5736a3;
     transition: transform linear 250ms;
 
-    :hover {
+    :hover,
+    :focus {
       transform: scale(1.1);
     }
   }

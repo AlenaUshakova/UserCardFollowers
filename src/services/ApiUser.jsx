@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-axios.defaults.baseURL = 'https://64381e8cc1565cdd4d66ab00.mockapi.io/users';
+axios.defaults.baseURL = process.env.REACT_APP_BASE_URL;
 
 export async function fetchUsers() {
   try {

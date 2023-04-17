@@ -105,8 +105,7 @@ export const TweetsBtn = styled.button`
 
   transition: transform linear 250ms;
 
-  :hover,
-  :focus {
+  :hover{
     transform: scale(1.1);
   }
 `;

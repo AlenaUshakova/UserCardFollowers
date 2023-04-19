@@ -1,5 +1,5 @@
-import { StyledInfoSmile, StyledInfoSmileText } from './InfoSmile.styled';
 import logo from '../../images/Sad.png';
+import { StyledInfoSmile, StyledInfoSmileText } from './InfoSmile.styled';
 
 export const InfoSmile = () => {
   return (

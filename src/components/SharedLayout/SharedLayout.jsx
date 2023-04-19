@@ -1,9 +1,11 @@
-import { Outlet } from 'react-router-dom';
 import { Suspense } from 'react';
-import { Container, Header, Link } from './SharedLayout.styled';
-import { ToastContainer} from 'react-toastify';
+import { Outlet } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+
 import { Loader } from 'components/Loader/Loader';
+
+import { Container, Header, Link } from './SharedLayout.styled';
 
 export const SharedLayout = () => {
   return (

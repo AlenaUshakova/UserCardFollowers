@@ -1,5 +1,6 @@
-import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
+
+import styled from 'styled-components';
 
 export const Container = styled.div`
   margin: 0 auto;

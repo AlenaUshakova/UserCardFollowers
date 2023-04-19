@@ -7,4 +7,3 @@ export const Button = ({ onClick }) => {
     </LoadMore>
   );
 };
-

@@ -1,8 +1,9 @@
 import styled from 'styled-components';
+
 import bigIm from '../../images/bgIm@1x.png';
 import bigIm2 from '../../images/bgIm@2x.png';
 
-export const CardContainer = styled.div`
+export const CardContainer = styled.li`
   display: flex;
   flex-direction: column;
   position: relative;
@@ -18,7 +19,7 @@ export const CardContainer = styled.div`
   border-radius: 20px;
 `;
 
-export const ImgContainer = styled.li`
+export const ImgContainer = styled.div`
   height: 214px;
   width: 100%;
   padding-top: 20px;
@@ -66,7 +67,8 @@ export const AvatarContainer = styled.div`
     border-radius: 85.9232px;
     transition: transform linear 250ms;
 
-    :hover, :focus {
+    :hover,
+    :focus {
       transform: scale(1.1);
     }
   }
@@ -105,7 +107,7 @@ export const TweetsBtn = styled.button`
 
   transition: transform linear 250ms;
 
-  :hover{
+  :hover {
     transform: scale(1.1);
   }
 `;

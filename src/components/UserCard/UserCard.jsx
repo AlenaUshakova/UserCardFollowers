@@ -1,16 +1,16 @@
+import { styleFollowers } from 'utils/styleFollowers';
+
+import logo from '../../images/logo.png';
 import {
+  AvatarContainer,
   CardContainer,
   ImgContainer,
   Line,
-  AvatarContainer,
-  TweetsContainer,
   TweetsBtn,
+  TweetsContainer,
 } from './UserCard.styled';
-import logo from '../../images/logo.png';
-import { styleFollowers } from 'utils/styleFollowers';
 
 export const UserCard = ({ users, onUpdateUser }) => {
-  
   return (
     <CardContainer>
       <ImgContainer>

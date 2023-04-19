@@ -1,18 +1,20 @@
 import { useEffect, useState } from 'react';
 import { useMemo } from 'react';
-import { toast } from 'react-toastify';
 import { HiArrowLeft } from 'react-icons/hi';
 import Select from 'react-select';
+import { toast } from 'react-toastify';
+
+import useLocalStorage from 'Hooks/useLocalStorage';
+import { BackLink } from 'components/BackLink/BackLink';
+import { Button } from 'components/Button/Button';
+import { InfoSmile } from 'components/InfoSmile/InfoSmile';
+import { Loader } from 'components/Loader/Loader';
+import { UserCard } from 'components/UserCard/UserCard';
 import { fetchUsers, updateUser } from 'services/ApiUser';
 import { filterUsers } from 'utils/filterUsers';
 import { pagination } from 'utils/pagination';
-import useLocalStorage from 'Hooks/useLocalStorage';
+
 import { CardList, OptionContainer, TweetsContainer } from './Tweets.styled';
-import { UserCard } from 'components/UserCard/UserCard';
-import { Button } from 'components/Button/Button';
-import { BackLink } from 'components/BackLink/BackLink';
-import { Loader } from 'components/Loader/Loader';
-import { InfoSmile } from 'components/InfoSmile/InfoSmile';
 
 const options = [
   { value: 'showall', label: 'show all' },

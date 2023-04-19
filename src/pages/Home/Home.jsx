@@ -1,9 +1,11 @@
-import { HomeContainer } from './Home.styled';
-import { BackLink } from 'components/BackLink/BackLink';
-import { ImageContainer } from './Home.styled';
 import { HiArrowRight } from 'react-icons/hi';
+
+import { BackLink } from 'components/BackLink/BackLink';
+
 import follow from '../../images/Follow.png';
 import following from '../../images/Following.png';
+import { HomeContainer } from './Home.styled';
+import { ImageContainer } from './Home.styled';
 
 const Home = () => {
   return (
